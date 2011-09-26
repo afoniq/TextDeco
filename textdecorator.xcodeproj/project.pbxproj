@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4243098D14308C7000256682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4243098C14308C7000256682 /* UIKit.framework */; };
+		4243098F14308C7000256682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4243098E14308C7000256682 /* Foundation.framework */; };
+		4243099114308C7000256682 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4243099014308C7000256682 /* CoreGraphics.framework */; };
+		4243099714308C7000256682 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4243099514308C7000256682 /* InfoPlist.strings */; };
+		4243099914308C7000256682 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4243099814308C7000256682 /* main.m */; };
+		4243099D14308C7000256682 /* textdecoratorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4243099C14308C7000256682 /* textdecoratorAppDelegate.m */; };
+		424309A014308C7000256682 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4243099E14308C7000256682 /* MainWindow.xib */; };
+		424309A314308C7000256682 /* textdecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424309A214308C7000256682 /* textdecoratorViewController.m */; };
+		424309A614308C7000256682 /* textdecoratorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 424309A414308C7000256682 /* textdecoratorViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4243098814308C7000256682 /* textdecorator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textdecorator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4243098C14308C7000256682 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4243098E14308C7000256682 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4243099014308C7000256682 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4243099414308C7000256682 /* textdecorator-Info.plist */ = {isa = PBXFileReference; path = "textdecorator-Info.plist"; sourceTree = "<group>"; };
+		4243099614308C7000256682 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4243099814308C7000256682 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4243099A14308C7000256682 /* textdecorator-Prefix.pch */ = {isa = PBXFileReference; path = "textdecorator-Prefix.pch"; sourceTree = "<group>"; };
+		4243099B14308C7000256682 /* textdecoratorAppDelegate.h */ = {isa = PBXFileReference; path = textdecoratorAppDelegate.h; sourceTree = "<group>"; };
+		4243099C14308C7000256682 /* textdecoratorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textdecoratorAppDelegate.m; sourceTree = "<group>"; };
+		4243099F14308C7000256682 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		424309A114308C7000256682 /* textdecoratorViewController.h */ = {isa = PBXFileReference; path = textdecoratorViewController.h; sourceTree = "<group>"; };
+		424309A214308C7000256682 /* textdecoratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textdecoratorViewController.m; sourceTree = "<group>"; };
+		424309A514308C7000256682 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/textdecoratorViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4243098514308C7000256682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4243098D14308C7000256682 /* UIKit.framework in Frameworks */,
+				4243098F14308C7000256682 /* Foundation.framework in Frameworks */,
+				4243099114308C7000256682 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4243097D14308C6F00256682 = {
+			isa = PBXGroup;
+			children = (
+				4243099214308C7000256682 /* textdecorator */,
+				4243098B14308C7000256682 /* Frameworks */,
+				4243098914308C7000256682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4243098914308C7000256682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4243098814308C7000256682 /* textdecorator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4243098B14308C7000256682 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4243098C14308C7000256682 /* UIKit.framework */,
+				4243098E14308C7000256682 /* Foundation.framework */,
+				4243099014308C7000256682 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4243099214308C7000256682 /* textdecorator */ = {
+			isa = PBXGroup;
+			children = (
+				4243099B14308C7000256682 /* textdecoratorAppDelegate.h */,
+				4243099C14308C7000256682 /* textdecoratorAppDelegate.m */,
+				4243099E14308C7000256682 /* MainWindow.xib */,
+				424309A114308C7000256682 /* textdecoratorViewController.h */,
+				424309A214308C7000256682 /* textdecoratorViewController.m */,
+				424309A414308C7000256682 /* textdecoratorViewController.xib */,
+				4243099314308C7000256682 /* Supporting Files */,
+			);
+			path = textdecorator;
+			sourceTree = "<group>";
+		};
+		4243099314308C7000256682 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4243099414308C7000256682 /* textdecorator-Info.plist */,
+				4243099514308C7000256682 /* InfoPlist.strings */,
+				4243099814308C7000256682 /* main.m */,
+				4243099A14308C7000256682 /* textdecorator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4243098714308C7000256682 /* textdecorator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424309A914308C7000256682 /* Build configuration list for PBXNativeTarget "textdecorator" */;
+			buildPhases = (
+				4243098414308C7000256682 /* Sources */,
+				4243098514308C7000256682 /* Frameworks */,
+				4243098614308C7000256682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textdecorator;
+			productName = textdecorator;
+			productReference = 4243098814308C7000256682 /* textdecorator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4243097F14308C6F00256682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Agiliq;
+			};
+			buildConfigurationList = 4243098214308C6F00256682 /* Build configuration list for PBXProject "textdecorator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4243097D14308C6F00256682;
+			productRefGroup = 4243098914308C7000256682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4243098714308C7000256682 /* textdecorator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4243098614308C7000256682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4243099714308C7000256682 /* InfoPlist.strings in Resources */,
+				424309A014308C7000256682 /* MainWindow.xib in Resources */,
+				424309A614308C7000256682 /* textdecoratorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4243098414308C7000256682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4243099914308C7000256682 /* main.m in Sources */,
+				4243099D14308C7000256682 /* textdecoratorAppDelegate.m in Sources */,
+				424309A314308C7000256682 /* textdecoratorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4243099514308C7000256682 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4243099614308C7000256682 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4243099E14308C7000256682 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4243099F14308C7000256682 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		424309A414308C7000256682 /* textdecoratorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				424309A514308C7000256682 /* en */,
+			);
+			name = textdecoratorViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		424309A714308C7000256682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		424309A814308C7000256682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		424309AA14308C7000256682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textdecorator/textdecorator-Prefix.pch";
+				INFOPLIST_FILE = "textdecorator/textdecorator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		424309AB14308C7000256682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textdecorator/textdecorator-Prefix.pch";
+				INFOPLIST_FILE = "textdecorator/textdecorator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4243098214308C6F00256682 /* Build configuration list for PBXProject "textdecorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424309A714308C7000256682 /* Debug */,
+				424309A814308C7000256682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424309A914308C7000256682 /* Build configuration list for PBXNativeTarget "textdecorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424309AA14308C7000256682 /* Debug */,
+				424309AB14308C7000256682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4243097F14308C6F00256682 /* Project object */;
+}
