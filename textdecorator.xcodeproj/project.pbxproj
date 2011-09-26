@@ -23,14 +23,14 @@
 		4243098C14308C7000256682 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4243098E14308C7000256682 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4243099014308C7000256682 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4243099414308C7000256682 /* textdecorator-Info.plist */ = {isa = PBXFileReference; path = "textdecorator-Info.plist"; sourceTree = "<group>"; };
+		4243099414308C7000256682 /* textdecorator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "textdecorator-Info.plist"; sourceTree = "<group>"; };
 		4243099614308C7000256682 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4243099814308C7000256682 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4243099A14308C7000256682 /* textdecorator-Prefix.pch */ = {isa = PBXFileReference; path = "textdecorator-Prefix.pch"; sourceTree = "<group>"; };
-		4243099B14308C7000256682 /* textdecoratorAppDelegate.h */ = {isa = PBXFileReference; path = textdecoratorAppDelegate.h; sourceTree = "<group>"; };
+		4243099A14308C7000256682 /* textdecorator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "textdecorator-Prefix.pch"; sourceTree = "<group>"; };
+		4243099B14308C7000256682 /* textdecoratorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textdecoratorAppDelegate.h; sourceTree = "<group>"; };
 		4243099C14308C7000256682 /* textdecoratorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textdecoratorAppDelegate.m; sourceTree = "<group>"; };
 		4243099F14308C7000256682 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		424309A114308C7000256682 /* textdecoratorViewController.h */ = {isa = PBXFileReference; path = textdecoratorViewController.h; sourceTree = "<group>"; };
+		424309A114308C7000256682 /* textdecoratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textdecoratorViewController.h; sourceTree = "<group>"; };
 		424309A214308C7000256682 /* textdecoratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textdecoratorViewController.m; sourceTree = "<group>"; };
 		424309A514308C7000256682 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/textdecoratorViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

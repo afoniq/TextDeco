@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface textdecoratorViewController : UIViewController
+@interface textdecoratorViewController : UIViewController {
+    UITextView *original;
+    UITextView *decorated;
+}
+
+@property (nonatomic, retain) IBOutlet UITextView *original;
+@property (nonatomic, retain) IBOutlet UITextView *decorated;
+
+- (IBAction)toArabic:(id)sender;
+- (IBAction)toHacker:(id)sender;
+- (IBAction)toFunkyString:(id)sender;
 
 @end
