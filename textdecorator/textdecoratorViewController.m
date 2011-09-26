@@ -123,13 +123,16 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSString *quick_fox = @"the quick brown fox jumps over the lazy dog \n (type and click button)";
+    original.text = quick_fox;
+    decorated.text = [quick_fox toFunkyString];
 }
-*/
+
 
 - (void)viewDidUnload
 {
