@@ -16,6 +16,9 @@
 		424309A014308C7000256682 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4243099E14308C7000256682 /* MainWindow.xib */; };
 		424309A314308C7000256682 /* textdecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424309A214308C7000256682 /* textdecoratorViewController.m */; };
 		424309A614308C7000256682 /* textdecoratorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 424309A414308C7000256682 /* textdecoratorViewController.xib */; };
+		42E83686143D9C3C00363278 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E83683143D9C3C00363278 /* Icon-72.png */; };
+		42E83687143D9C3C00363278 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E83684143D9C3C00363278 /* Icon.png */; };
+		42E83688143D9C3C00363278 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E83685143D9C3C00363278 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		424309A114308C7000256682 /* textdecoratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textdecoratorViewController.h; sourceTree = "<group>"; };
 		424309A214308C7000256682 /* textdecoratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textdecoratorViewController.m; sourceTree = "<group>"; };
 		424309A514308C7000256682 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/textdecoratorViewController.xib; sourceTree = "<group>"; };
+		42E83683143D9C3C00363278 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "textdecorator/Icon-72.png"; sourceTree = "<group>"; };
+		42E83684143D9C3C00363278 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = textdecorator/Icon.png; sourceTree = "<group>"; };
+		42E83685143D9C3C00363278 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "textdecorator/Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 		4243097D14308C6F00256682 = {
 			isa = PBXGroup;
 			children = (
+				42E83683143D9C3C00363278 /* Icon-72.png */,
+				42E83684143D9C3C00363278 /* Icon.png */,
+				42E83685143D9C3C00363278 /* Icon@2x.png */,
 				4243099214308C7000256682 /* textdecorator */,
 				4243098B14308C7000256682 /* Frameworks */,
 				4243098914308C7000256682 /* Products */,
@@ -154,6 +163,9 @@
 				4243099714308C7000256682 /* InfoPlist.strings in Resources */,
 				424309A014308C7000256682 /* MainWindow.xib in Resources */,
 				424309A614308C7000256682 /* textdecoratorViewController.xib in Resources */,
+				42E83686143D9C3C00363278 /* Icon-72.png in Resources */,
+				42E83687143D9C3C00363278 /* Icon.png in Resources */,
+				42E83688143D9C3C00363278 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
