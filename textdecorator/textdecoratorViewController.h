@@ -19,5 +19,6 @@
 - (IBAction)toArabic:(id)sender;
 - (IBAction)toHacker:(id)sender;
 - (IBAction)toFunkyString:(id)sender;
+- (IBAction)flipText:(id)sender;
 
 @end

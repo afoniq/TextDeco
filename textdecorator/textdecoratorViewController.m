@@ -12,6 +12,8 @@
 -(NSString *)reverseString;
 -(NSString *) toArabicString;
 -(NSString *) toHackerString;
+-(NSString *)reverseString;
+-(NSMutableString *)flipString;
 
 @end
 
@@ -50,6 +52,152 @@
     }
     return fliptxt;
 }
+-(NSString *) flipString
+{
+    static const NSInteger N_ENTRIES = 46;
+    NSDictionary *replaceDict;
+    //NSString *keyArray[N_ENTRIES];
+    //NSNumber *valueArray[N_ENTRIES];
+    
+    /*
+     a : '\u0250', 
+     b : 'q', 
+     c : '\u0254', 
+     d : 'p', 
+     e : '\u01DD', 
+     f : '\u025F', 
+     g : '\u0183', 
+     h : '\u0265', 
+     i : '\u0131', 
+     j : '\u027E', 
+     k : '\u029E', 
+     l : 'l', 
+     m : '\u026F', 
+     n : 'u', 
+     o : 'o', 
+     p : 'd', 
+     q : 'b', 
+     r : '\u0279', 
+     s : 's', 
+     t : '\u0287', 
+     u : 'n', 
+     v : '\u028C', 
+     w : '\u028D', 
+     y : '\u028E', 
+     z : 'z', 
+     }
+     */
+    
+    
+    NSString *keyArray[] = {@"a", @"b", @"c",
+        @"d", @"e", @"f", @"g", @"h", @"i", @"j", @"k", @"l", @"m",
+        @"n", @"o", @"p", @"q", @"r", @"s", @"t", @"u", @"v", @"w", 
+        @"x", @"y", @"z",
+        @"1",
+        @"2",
+        @"3",
+        @"4",
+        @"5",
+        @"6",
+        @"7",
+        @"8",
+        @"9",
+        @"0",
+        @".", 
+        @",",
+        @"@",
+        @"\"", 
+        @"´",
+        @"`",
+        @";",
+        @"!",
+        @"\u00A1@",
+        @"?",
+        @"\u00BF@",
+        @"[",
+        @"]",
+        @"(",
+        @")",
+        @"{",
+        @"}",
+        @"<",
+        @">",
+        @"_",
+        @"\r"
+    };
+    NSString *valueArray[] = {
+        @"\u0250", 
+        @"q", 
+        @"\u0254",
+        @"p",
+        @"\u01DD",
+        @"\u025F",
+        @"\u0183",
+        @"\u0265",
+        @"\u0131",
+        @"\u027E",
+        @"\u029E",
+        @"l", 
+        @"\u026F",
+        @"u", 
+        @"o", 
+        @"d", 
+        @"b", 
+        @"\u0279",
+        @"s", 
+        @"\u0287",
+        @"n", 
+        @"\u028C",
+        @"\u028D",
+        @"x",
+        @"\u028E",
+        @"z",
+        @"\u21C2",
+        @"\u1105", 
+        @"\u1110", 
+        @"\u3123", 
+        @"\u03DB",
+        @"9", 
+        @"\u3125", 
+        @"8", 
+        @"6", 
+        @"0",
+        @"\u02D9",
+        @"\'", 
+        @",", 
+        @",,", 
+        @",", 
+        @",", 
+        @"\u061B", 
+        @"\u00A1", 
+        @"!", 
+        @"\u00BF", 
+        @"?", 
+        @"]", 
+        @"[", 
+        @")", 
+        @"(", 
+        @"}", 
+        @"{", 
+        @">", 
+        @"<", 
+        @"\u203E", 
+        @"\n"
+        
+    };
+    
+    
+    replaceDict = [NSDictionary dictionaryWithObjects:(id *)valueArray
+                                              forKeys:(id *)keyArray count:N_ENTRIES];
+    NSMutableString *fliptxt = [self mutableCopy];
+    for (NSString *target in replaceDict) {
+        [fliptxt replaceOccurrencesOfString:target withString:[replaceDict objectForKey:target] 
+                                    options:0 range:NSMakeRange(0, [fliptxt length])];
+    }
+    return fliptxt;
+}
+
+
 -(NSString *) toHackerString
 {
     NSDictionary *replaceDict;
@@ -172,6 +320,13 @@
     NSLog(@"To Funky Pressed.");
     NSString *orig = original.text;
     decorated.text = [orig toFunkyString];
+    [original resignFirstResponder];
+}
+
+- (IBAction)flipText:(id)sender {
+    NSLog(@"To fliptext Pressed.");
+    NSString *orig = original.text;
+    decorated.text = [orig flipString];
     [original resignFirstResponder];
 }
 @end
